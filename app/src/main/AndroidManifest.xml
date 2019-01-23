@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bakyuz.okul3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MudurActivity"
+            android:label="ÖĞRENCİ EKLE" />
+        <activity
+            android:name=".MudurGiris"
+            android:label="MÜDÜR YÖNETİM PANELİ" />
+        <activity
+            android:name=".OgrenciGiris"
+            android:label="ÖĞRENCİ YÖNETİM PANELİ" />
+        <activity
+            android:name=".VeliGiris"
+            android:label="VELİ YÖNETİM PANELİ" />
+        <activity
+            android:name=".HizmetliGiris"
+            android:label="HİZMETLİ YÖNETİM PANELİ" />
+        <activity
+            android:name=".Mesaj"
+            android:label="MESAJ PANELİ" />
+        <activity
+            android:name=".Ogretmen"
+            android:label="ÖĞRETMEN YÖNETİM PANELİ" />
+        <activity
+            android:name=".OgrenciHarita"
+            android:label="Öğrenci Harita" />
+        <activity android:name=".Kurslar"
+            android:label="Kurslar" ></activity>
+    </application>
+
+</manifest>
